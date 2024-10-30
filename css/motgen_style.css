@@ -1,0 +1,34 @@
+#motgen_poster_canvas {
+	position: absolute;
+	max-height: 600px;
+	max-width: 600px;
+	display: none;
+}
+
+#motgen_form_wrapper {
+	display: block;
+}
+
+#motgen_loading_icon, #motgen_error_message_area, #motgen_generator_form {
+	display: none;
+}
+
+#motgen_loading_icon {
+	max-width: 16px;
+}
+
+.motgen_poster {
+border-radius: 0px;
+border-style: none;
+}
+
+@font-face {
+    font-family: 'FreeSerif';
+    src: url('fonts/FreeSerif.ttf');
+}
+
+#motgen_font_loader {
+	font-family: FreeSerif !important;
+	visibility: hidden !important;
+	position: absolute !important;
+}
